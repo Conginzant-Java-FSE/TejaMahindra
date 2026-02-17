@@ -51,3 +51,8 @@ function getMatchResult(match: Match): string {
     return "Draw"
   }
 }
+
+console.log(getMatchResult(match1))
+console.log(getMatchResult(match2))
+console.log(getMatchResult(match3))
+
