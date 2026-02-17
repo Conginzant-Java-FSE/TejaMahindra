@@ -28,3 +28,6 @@ function promotePlayer(player: Player): Player {
     experiencePoints: player.experiencePoints + 1000
   }
 }
+
+console.log(promotePlayer(player1))
+console.log(promotePlayer(player2))
