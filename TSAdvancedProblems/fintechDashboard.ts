@@ -17,4 +17,4 @@ const profile = {
   verified: false
 }
 
-console.log("Problem 4:", updateProfile(profile, { verified: true }))
+console.log("updated verify", updateProfile(profile, { verified: true }))
