@@ -19,5 +19,5 @@ function updateRank(team: Team, newRank: number): Team {
   }
 }
 
-console.log("Problem 1:", updateRank(team, 2))
+console.log("updated:", updateRank(team, 2))
 console.log("Original Team:", team)
